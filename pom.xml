@@ -8,8 +8,8 @@
 		<version>3.3.5</version>
 		<relativePath/>
 	</parent>
-	<groupId>at.pmrc</groupId>
-	<artifactId>PMRC</artifactId>
+	<groupId>at.movierating</groupId>
+	<artifactId>MOVIERATING</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Postgres Mongo Runtime Comparison</name>
 	<description>A Backend which provides interfaces for PostgreSQL &amp; MongoDB Databases, in order to check the execution time for various operations</description>

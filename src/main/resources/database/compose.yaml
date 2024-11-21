@@ -1,6 +1,6 @@
 services:
   postgres:
-    container_name: 5EHIF-DBI-PMRC-Postgres
+    container_name: 5EHIF-DBI-MOVIERATING-Postgres
     image: postgres:16-alpine
     ports:
       - 5432:5432
@@ -14,7 +14,7 @@ services:
       - ./postgres/migrations:/docker-entrypoint-initdb.d/
 
   mongo:
-    container_name: 5EHIF-DBI-PMRC-Mongo
+    container_name: 5EHIF-DBI-MOVIERATING-Mongo
     image: mongo:latest
     ports:
       - 27017:27017
